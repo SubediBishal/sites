@@ -1,0 +1,135 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&family=Source+Sans+Pro:wght@300;400&display=swap'); */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.sidebar{
+    background-color:rgb(243, 234, 234); 
+    width: 500px;
+    height: 100vh;
+}
+
+
+.sidebar nav{
+    padding: 30px;
+
+}
+
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 25px;
+    padding: 33px 0;
+    font-weight: bold;
+ 
+}
+
+
+.sidebar nav li a{
+text-decoration: none;
+color: rgb(230, 9, 9);
+}
+
+
+.main{
+    /* background-color: #00d4ff; */
+    width: 85vw;
+}
+
+
+.container{
+    display: flex;
+}
+
+
+.nav{
+    padding: 50px;
+}
+
+
+.infocontainer{
+ 
+    /* background-color: #0fe80b; */
+    height: 50vh;
+    width: 80vw;
+    margin: auto;
+    margin-top: 144px;
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.divinfo{
+    display: flex;
+  justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+
+}
+
+
+.hello{
+    font-size: 50px;
+    /* text-align:justify; */
+
+}
+
+
+.name{
+    font-size: 45px;
+    font-weight: bold;
+    color: rgb(16, 127, 224);
+    font-family: 'Source Sans Pro', sans-serif
+}
+
+
+.about{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+.moreabout{
+    font-size: 18px;
+    margin-top: 10px;
+    font-family: 'Source Sans Pro', sans-serif
+    
+}
+
+
+.divpic img{
+
+    width: 293px;
+    height: 50vh;
+}
+
+
+.button{
+position: relative;
+text-decoration: none;
+top: 15px;
+}
+
+
+.btn-download {
+    background-color: orangered;
+    height: 30px;
+    padding: 5px;
+    color: #ffff;
+    border: none;
+    border-radius: 10px;
+
+}
+
+
+.btn-download :hover{
+    color: orangered;
+    background-color: blue;
+    cursor: pointer;
+}
+
+
